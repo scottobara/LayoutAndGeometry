@@ -25,9 +25,13 @@ struct ContentView: View {
                     }
                 }
                 .padding(.horizontal, (fullView.size.width - 150) / 2)
+                .offset(y: 50)
             }
+            .padding(.vertical, fullView.size.height/2 - 150)
         }
+        
         .edgesIgnoringSafeArea(.all)
+        
     }
 }
 
